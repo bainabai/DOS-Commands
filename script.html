@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CMD Interface</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 20px;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .prompt {
+            color: lime;
+            margin-bottom: 10px;
+            text-align: center; /* Align text to center */
+            position: fixed; /* Fixed position */
+            top: 20px; /* Distance from the top */
+            left: 50%; /* Center horizontally */
+            transform: translateX(-50%); /* Adjust for centering */
+            font-size: 40px;
+        }
+
+        .commands-container {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            margin-top: 200px; /* Adjust top margin */
+            margin-left: 20px; /* Adjust left margin */
+            font-size: 20px;
+        }
+
+        .command {
+            margin-bottom: 5px;
+        }
+
+        .output {
+            color: white;
+            font-family: "Courier New", Courier, monospace;
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="prompt">MS-DOS Commands<br>(c) 2024 Microsoft Corporation. All rights reserved.</div>
+    
+    <div class="commands-container">
+        <div class="command">1. CD - Change directory</div>
+        <div class="command">2. DIR - List directory contents</div>
+        <div class="command">3. MD - Make directory</div>
+        <div class="command">4. RD - Remove directory</div>
+        <div class="command">5. COPY - Copy files</div>
+        <div class="command">6. REN - Rename files</div>
+        <div class="command">7. DEL - Delete files</div>
+        <div class="command">8. TYPE - Display file contents</div>
+        <div class="command">9. EDIT - Open text editor</div>
+        <div class="command">10. FC - Compare files</div>
+        <div class="command">11. FIND - Search for a text string in files</div>
+        <div class="command">12. XCOPY - Extended copy</div>
+        <div class="command">13. TREE - Display directory tree</div>
+        <div class="command">14. CHKDSK - Check disk</div>
+        <div class="command">15. FORMAT - Format disk</div>
+        <div class="command">16. MOVE - Move files</div>
+        <div class="command">17. ATTRIB - Display or change file attributes</div>
+        <div class="command">18. FC - Compare two files or sets of files</div>
+        <div class="command">19. MORE - Display output one screen at a time</div>
+        <div class="command">20. PROMPT - Change the command prompt</div>
+        <div class="command">21. VOL - Display a disk label</div>
+        <div class="command">22. VER - Display the DOS version</div>
+        <div class="command">23. SET - Display, set, or remove environment variables</div>
+        <div class="command">24. TIME - Display or set the system time</div>
+        <div class="command">25. DATE - Display or set the system date</div>
+        <div class="command">26. CLS - Clear the screen</div>
+        <div class="command">27. EXIT - Quit the CMD.EXE program</div>
+        <div class="command">28. FOR - Run a specified command for each file in a set of files</div>
+        <div class="command">29. IF - Execute a command conditionally</div>
+        <div class="command">30. LABEL - Create, change, or delete the volume label of a disk</div>
+        <div class="pdf-container">
+            <embed class="pdf-object" src="dos com.pdf" type="application/pdf" />
+        </div>
+    </div>
+</body>
+</html>
